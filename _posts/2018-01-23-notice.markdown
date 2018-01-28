@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "최초 게시글"
+subtitle:   "테스팅"
+categories: notice
+tags: notice
+---
+
+Test
+## 테스팅입니다
+
+감사합니다.
+
+테스트용 영상입니다
+{% include youtube.html id="24kQVUAzM1w" %}
+
+
+
+
