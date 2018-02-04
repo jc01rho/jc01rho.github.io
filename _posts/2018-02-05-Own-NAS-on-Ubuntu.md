@@ -2,7 +2,7 @@
 layout: post
 title:  "개발자의 자작나스, 최고는 우분투"
 subtitle:   "NAS"
-categories: linux
+categories: devlog
 tags: linux nas
 
 ---
