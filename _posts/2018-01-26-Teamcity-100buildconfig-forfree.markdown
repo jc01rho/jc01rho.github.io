@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TeamCity 무료라이센스 100빌드설정 지원"
+title:  "TeamCity 무료라이센스 한도 확장"
 subtitle:   "Teamcity"
 categories: devlog
 tags: utility
@@ -12,12 +12,11 @@ JetBrains사는 IDE도구 개발사로 잘 알려져있다. 유용한 IDE 들[^1
 
 TeamCity는 CI 도구로서[^2] 개발자는 개발에만 집중하고, 빌드 등 부차적인 요소는 정해진 방법으로 자동화시켜 그에대한 신경을 줄일수 있게 돕는 도구이다.
 
-## JetBrains Teamcity 무료 라이센스 100빌드설정 지원
+## JetBrains Teamcity 무료 라이센스 한도 확장
 
 
 
-
-
+이번 버전부터 100 build configuration까지 한도가 확장되었다.
 CI도구에 Unit테스트 및 간단한 QA수준까지 물릴수가 있어서 물려놓았고...
 우리 사내에서도 이 정식 라이센스를 사서 쓰고있었는데 아직 100개가 안되는걸로 보인다(?)
 
