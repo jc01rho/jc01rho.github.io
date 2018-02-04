@@ -5,7 +5,6 @@ subtitle:   "Teamcity"
 categories: devlog
 tags: utility
 image: "https://user-images.githubusercontent.com/4989674/35424384-9e503ef0-0296-11e8-8879-30095d2c9458.png"
-date: 2018-01-26 20:30:00 +0900
 ---
 
 JetBrains사는 IDE도구 개발사로 잘 알려져있다. 유용한 IDE 들[^1]  을 판매하고있으며  그외 협업도구도 판매중에 있다.
