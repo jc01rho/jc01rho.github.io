@@ -6,12 +6,14 @@ categories: devlog
 tags: utility
 ---
 
-## JetBrains Teamcity 무료 라이센스 100빌드설정 지원
-
 JetBrains사는 IDE도구 개발사로 잘 알려져있다. 유용한 IDE 들[^1]  을 판매하고있으며  그외 협업도구도 판매중에 있다.
 
 
 TeamCity는 CI 도구로서[^2] 개발자는 개발에만 집중하고, 빌드 등 부차적인 요소는 정해진 방법으로 자동화시켜 그에대한 신경을 줄일수 있게 돕는 도구이다.
+
+## JetBrains Teamcity 무료 라이센스 100빌드설정 지원
+
+
 
 
 
