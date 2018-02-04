@@ -5,25 +5,25 @@ layout: compress
 {% assign author = site.data.authors[page.author] | default:site.data.authors.first[1] %}
 
 {% assign color = site.color | default:'#5ff656b' %}
-{% assign image = site.image | default:'/assets/img/nap.jpg' %}
+{% assign leftimage = site.image | default:'/assets/img/nap.jpg' %}
 
 {% if page.categories.size > 0 %}
   {% assign category_name = page.categories.first %}
   {% assign category = site.featured_categories | where: "slug", category_name | first %}
   {% if category.color %}{% assign color = category.color %}{% endif %}
-  {% if category.image %}{% assign image = category.image %}{% endif %}
+  {% if category.image %}{% assign leftimage = category.image %}{% endif %}
 {% elsif page.tags.size > 0 %}
   {% assign tag_name = page.tags.first %}
   {% assign tag = site.featured_tags | where: "slug", tag_name | first %}
   {% if tag.color %}{% assign color = tag.color %}{% endif %}
-  {% if tag.image %}{% assign image = tag.image %}{% endif %}
+  {% if tag.image %}{% assign leftimage = tag.image %}{% endif %}
 {% elsif author %}
   {% if author.color %}{% assign color = author.color %}{% endif %}
-  {% if author.image %}{% assign image = author.image %}{% endif %}
+  {% if author.image %}{% assign leftimage = author.image %}{% endif %}
 {% endif %}
 
 {% if page.color %}{% assign color = page.color %}{% endif %}
-<!--{% if page.image %}{% assign image = page.image %}{% endif %}-->
+{% if page.leftimage %}{% assign leftimage = page.leftimage %}{% endif %}
 
 
 <head>
