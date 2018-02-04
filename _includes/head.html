@@ -16,11 +16,11 @@
   {% endunless %}
 {% endfor %}
 
-{% if page.header-img %}
-  <meta property="og:image" content="{{ site.url }}/assets/{{ page.header-img }}">
+{% if page.image %}
+  <meta property="og:image" content="{{page.image}}">
   <br/>
-{% elsif tag.header-img %}
-  <meta property="og:image" content="{{ site.url }}/assets/{{ tag.header-img }}">
+{% elsif tag.image %}
+  <meta property="og:image" content="{{tag.image}}">
   <br/>
 {% else %}
   <meta property="og:image" content="{{ site.url }}/assets/img/logo.png">
