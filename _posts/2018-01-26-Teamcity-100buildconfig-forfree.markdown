@@ -4,7 +4,7 @@ title:  "TeamCity 무료라이센스 100빌드설정 지원"
 subtitle:   "Teamcity"
 categories: devlog
 tags: utility
-image: https://user-images.githubusercontent.com/4989674/35424384-9e503ef0-0296-11e8-8879-30095d2c9458.png
+image: "https://user-images.githubusercontent.com/4989674/35424384-9e503ef0-0296-11e8-8879-30095d2c9458.png"
 date: 2018-01-26 20:30:00 +0900
 ---
 
