@@ -3,6 +3,18 @@ layout: base
 ---
 
 {% for post in paginator.posts %}
+	{% if forloop.index == 3 %}
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<ins class="adsbygoogle"
+		     style="display:block"
+		     data-ad-format="fluid"
+		     data-ad-layout-key="-dz+4q-30-ik+1kc"
+		     data-ad-client="ca-pub-3357216774008640"
+		     data-ad-slot="6461266498"></ins>
+		<script>
+		     (adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+	{% endif %}
   {% include post.html post=post link_title=true excerpt=true %}
 {% endfor %}
 
