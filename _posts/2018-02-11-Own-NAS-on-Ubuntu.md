@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '개발자의 자작나스, 최고는 우분투'
-subtitle: NAS
+subtitle: 개발자 NAS ubuntu
 categories: devlog
 tags: linux nas
 date: 2018-02-11 14:00:00 +0900
