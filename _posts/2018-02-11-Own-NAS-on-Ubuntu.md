@@ -4,6 +4,7 @@ title: '개발자의 자작나스, 최고는 우분투'
 subtitle: NAS
 categories: devlog
 tags: linux nas
+date: 2018-02-11 14:00:00 +0900
 ---
 자작나스로 08년도에 서울에 상경하며 맞춘컴을 그냥 그대로 Ubuntu 16.04 LTS를 올려 쓰고있다. 하드만 4TB로 교체.
 
